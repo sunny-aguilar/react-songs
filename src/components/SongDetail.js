@@ -22,19 +22,3 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps)(SongDetail);
-
-
-const Counter = (props) => {
-Current Count : <span>{props.count}</span>
-<button onClick={props.increment} className="increment"
-<button onClick={props.decrement} className="increment"
-
-
-const mapStateToProps = (state) => {
-  return { count: state.count };
-};
-
-const WrappedCounter = ReactReduxContext.connect(mapStateToProps, {
-  increment,
-  decrement
-})(Counter);
