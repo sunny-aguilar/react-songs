@@ -5,4 +5,8 @@ const SongDetail = () => {
   return <div>Song Detail</div>
 };
 
+const mapStateToProps = (state) => {
+  
+};
+
 export default SongDetail;
